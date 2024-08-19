@@ -3162,11 +3162,11 @@
 
 	#banner {
 		background-attachment: scroll,							fixed;
-		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-color: #ff862f;
+		/*background-image: url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
+		background-size: auto,							cover;*/
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
@@ -3303,7 +3303,7 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		background: #ff862f;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -3325,7 +3325,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: #e89980;
+			color: #ff862f;
 		}
 
 		#cta input[type="text"],
@@ -3895,4 +3895,9 @@
 				padding: 2.5em 1em 3em 1em;
 			}
 
+	}
+
+
+	.features img{
+		width: 30%;
 	}
